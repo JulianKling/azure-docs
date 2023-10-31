@@ -137,7 +137,7 @@ We support three 'overwrite' modes:
 ```python
 # you can specify recursive as False to download a file
 # downloading overwrite option is determined by local system, and it is MERGE_WITH_OVERWRITE
-fs.download(rpath='data/fsspec/crime-spring.csv', lpath='data/download_files/, recursive=False)
+fs.download(rpath='data/fsspec/crime-spring.csv', lpath='data/download_files/', recursive=False)
 
 # you need to specify recursive as True to download a folder
 fs.download(rpath='data/fsspec_folder', lpath='data/download_folder/', recursive=True)
